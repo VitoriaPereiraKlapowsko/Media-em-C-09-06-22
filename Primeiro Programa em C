@@ -1,0 +1,79 @@
+#include <stdio.h>
+
+int main() 
+{
+        printf("Atividade 1!\n");
+        
+        printf("Primeiro participante digite sua nota: ");
+        float notaminima1 = 0;
+        scanf("%f", &notaminima1);
+    
+        printf("Segundo participante digite sua nota: ");
+        float notaminima2 = 0;
+        scanf("%f", &notaminima2);
+    
+        printf("Terceiro participante digite sua nota: ");
+        float notaminima3 = 0;
+        scanf("%f", &notaminima3);
+    
+    if(notaminima1 > 6.0) {
+        printf("O primeiro tem a maior nota parabéns!!!");
+    } 
+    if(notaminima2 > 6.0) {
+        printf("O segundo tem a maior nota parabéns!!!");
+    }
+    if(notaminima3 > 6.0) {
+        printf("O terceiro tem a maior nota parabéns!!!");
+    } 
+
+   printf("\n\nAtividade 2!");
+   int numero1 = 0;
+   int numero2 = 0;
+   int numero3 = 0;
+   int numero4 = 0;
+   int numero5 = 0;
+   int numero6 = 0;
+   int numero7 = 0;
+   int numero8 = 0;
+   int numero9 = 0;
+   int numero10 = 0;
+   int resultado = 0;
+    
+    printf("\nDigite 10 números logo abaixo por favor!\n");
+    
+    printf("-> ");
+    scanf("%d", &numero1);
+    
+    printf("-> ");
+    scanf("%d", &numero2);
+    
+    printf("-> ");
+    scanf("%d", &numero3);
+    
+    printf("-> ");
+    scanf("%d", &numero4);
+    
+    printf("-> ");
+    scanf("%d", &numero5);
+    
+    printf("-> ");
+    scanf("%d", &numero6);
+    
+    printf("-> ");
+    scanf("%d", &numero7);
+    
+    printf("-> ");
+    scanf("%d", &numero8);
+    
+    printf("-> ");
+    scanf("%d", &numero9);
+    
+    printf("-> ");
+    scanf("%d", &numero10);
+    
+    resultado = numero1 + numero2 + numero3 + numero4+ numero5 + numero6 + numero7 + numero8 + numero9 + numero10;
+    printf("O valor da média é: %d\n", resultado / 10);
+    
+    return 0;
+}
+
