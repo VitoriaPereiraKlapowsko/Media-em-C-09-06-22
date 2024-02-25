@@ -77,3 +77,14 @@ int main()
     return 0;
 }
 
+/*
+Partes ruins do código:
+
+Variáveis com nomes pouco descritivos;
+Repetição de código;
+Falta de oganização e clareza;
+Falta de comentários explicando algumas funcionalidades;
+O arquivo nem tinha a extenção .c no nome;
+Identação estava um pouco ruim também.
+*/
+
